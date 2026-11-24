@@ -23,7 +23,7 @@
 </header>
 
 <main>
-    <form action="#" method="post">
+    <form action="process-register.php" method="post">
 <p>Any dairy farmer within reach of one of our three routes may apply to join Ereteti. You will need your national ID number and a phone we can reach you on. Once your membership number is issued you may deliver from that day, and you are paid once a month for the litres we accept.</p>
 <fieldset>
     <legend>Your details</legend>
@@ -46,9 +46,9 @@
     <label for="route">Route</label>
     <select id="route" name="route" required>
         <option value="">Choose a route</option>
-        <option value="Kiserian">Kiserian route</option>
-        <option value="Ngong">Ngong route</option>
-        <option value="Rongai">Rongai route</option>
+        <option value="1">Kiserian route</option>
+        <option value="2">Ngong route</option>
+        <option value="3">Rongai route</option>
     </select>
 
     <label for="date-joined">Date of joining</label>
